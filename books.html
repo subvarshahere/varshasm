@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Books I've Read</title>
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background: #F5E6F5;
+            color: #333;
+        }
+
+        .header {
+            background: #52214C;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .nav{
+            background: #8C6986;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .sections{
+            background-color:#331833;
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+
+        .books-grid img {
+            width: 150px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+
+        .books-grid img:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+        }
+
+        h2 {
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Books I've Read</h1>
+    </div>
+
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="projects.html">Projects</a>
+        <a href="interests.html">Interests</a>
+        <a href="contacts.html">Contacts</a>        
+    </div>
+
+    <div class="sections">
+        <h2>Click on a book to see my review</h2>
+        <div class="books-grid">
+            <a href="book1.html"><img src="book1.jpg" alt="Book 1"></a>
+            <a href="book2.html"><img src="book2.jpg" alt="Book 2"></a>
+            <a href="book3.html"><img src="book3.jpg" alt="Book 3"></a>
+            <a href="book4.html"><img src="book4.jpg" alt="Book 4"></a>
+        </div>
+    </div>
+
+</body>
+</html>
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Projects</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #F5E6F5;
+            color: #333;
+        }
+
+        .header {
+            background: #52214C;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .nav {
+            background: #8C6986;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* --- PROJECT CARD STYLES --- */
+        .project-section {
+            padding: 50px;
+            background: #F5E6F5;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .project-card {
+            background: white;
+            width: 280px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            transition: transform 0.2s ease;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .project-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #52214C;
+            margin-bottom: 10px;
+        }
+
+        .project-lang {
+            font-size: 14px;
+            font-weight: bold;
+            color: #8C6986;
+            margin-bottom: 10px;
+        }
+
+        .project-desc {
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Welcome!</h1>
+    </div>
+
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About me</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="projects.html">Projects</a>
+        <a href="interests.html">Interests</a>
+        <a href="contacts.html">Contacts</a>
+    </div>
+
+    <!-- PROJECT CARDS SECTION -->
+    <div class="project-section">
+
+        <div class="project-card">
+            <div class="project-title">Colorizing Black & White Images</div>
+            <div class="project-lang">Languages Used: Python, TensorFlow</div>
+            <div class="project-desc">
+                A deep learning model trained to colorize grayscale images using the Inception-ResNetV2 architecture.
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-title">Speaker Recognition System</div>
+            <div class="project-lang">Languages Used: Python, Librosa</div>
+            <div class="project-desc">
+                Built a CNN-based speaker recognition system using MFCC features and custom preprocessing.
+            </div>
+        </div>
+
+        <!--<div class="project-card">
+            <div class="project-title">NVR & Proxmox Setup</div>
+            <div class="project-lang">Tools Used: Proxmox, Frigate NVR</div>
+            <div class="project-desc">
+                Designed a multi-tenant surveillance system with VM-based NVR instances and centralized monitoring.
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-title">Portfolio Website</div>
+            <div class="project-lang">Languages Used: HTML, CSS</div>
+            <div class="project-desc">
+                A personal portfolio website showcasing academic work, interests, and projects.
+            </div>
+        </div>-->
+
+        <div class =" project-card">
+            <div class="project-title"> Development of Pre-paid Energy Meter</div>
+            <div class="project-lang"> Tools used: Arduino IDE, ESP32, HTML/CSS, JavaScript</div>
+            <div class="project-desc">University Grant Commission supported prototype of energy meter to measure the usage of the energy according to the amount paid prior by the user. Database consisting of personal details of customers along with real-time display of the usage.</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
+

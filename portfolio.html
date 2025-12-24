@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background: #F5E6F5;
+            color: #333;
+        }
+
+        .header {
+            background: #52214C;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .nav{
+            background: #8C6986;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nav a {
+            color: white;
+            margin: 0 15px;     
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .sections {
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px; /* spacing between cards */
+            align-items: center;
+            background-color: #331833;
+        }
+
+        .card {
+            background-color: #E7D3E8;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            width: 90%;
+            max-width: 800px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        /* Hover effect for cards */
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #52214C;
+            text-align: center;
+        }
+        .card h5 {
+            margin-top: 0;
+            color: #52214C;
+            text-align: center;
+        }
+        .card ul {
+            margin: 10px 0 0 20px;
+        }
+
+        .card li {
+            margin-bottom: 8px;
+        }
+
+        /* Section heading */
+        .sections h2 {
+            color: #fff;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Welcome!</h1>
+    </div>
+
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About me</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="projects.html">Projects</a>
+        <a href="interests.html">Interests</a>
+        <a href="contacts.html">Contacts</a>        
+    </div>
+
+    <div class="sections">
+        <h2>My Portfolio</h2>
+
+        <!-- Card 1 -->
+        <div class="card">
+            <h3>Network Engineer Intern - TechSquad Nepal</h3><h5>Apr 2025 - Jun 2025</h5>
+            <ul>
+                <li>Assisted in configuring and maintaining routers, switches and firewalls.</li>
+                <li>Documented network configurations, IP address assignments and cable layouts.</li>
+                <li>Implemented VLANs, subnetting, NAT and other core networking concepts in a real-world environment.</li>
+                <li>Configured and simulated real life network scenarios in EVE-NG lab and Cisco Packet Tracer.</li>
+                <li>Assisted in implementing basic network security measures such as ACLs and port security.</li>
+                <li>Deployed NVRs and remote access setups.</li>
+                <li>Implemented centralized control system of cameras for municipal office.</li>
+            </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <h3>Research Intern- EMCS (KU- UGC)</h3><h5>Jul 2024 - Dec 2024</h5>
+            <ul>
+                <li>Developed an interface for the user and the server to monitor and control the power consumed by the user with ESP32.</li>
+                <li>Designed a website solely for the user to monitor their usage where all the parameters are displayed in their personal dashboard with personal details and real-time monitoring of energy consumption.</li>
+                <li>Created a database of users and their personal details.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
+
