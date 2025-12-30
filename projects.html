@@ -31,10 +31,18 @@
             font-weight: bold;
         }
 
-        /* --- PROJECT CARD STYLES --- */
+        /* SECTION TITLE */
+        .section-title {
+            text-align: center;
+            font-size: 28px;
+            color: #52214C;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        /* PROJECT CARD STYLES */
         .project-section {
-            padding: 50px;
-            background: #F5E6F5;
+            padding: 20px 50px 50px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -78,7 +86,7 @@
 <body>
 
     <div class="header">
-        <h1>Welcome!</h1>
+        <h1>My Projects</h1>
     </div>
 
     <div class="nav">
@@ -90,49 +98,63 @@
         <a href="contacts.html">Contacts</a>
     </div>
 
-    <!-- PROJECT CARDS SECTION -->
+    <!-- ================= AI / ML PROJECTS ================= -->
+    <div class="section-title">AI / Machine Learning</div>
     <div class="project-section">
 
         <div class="project-card">
             <div class="project-title">Colorizing Black & White Images</div>
-            <div class="project-lang">Languages Used: Python, TensorFlow</div>
+            <div class="project-lang">Python, TensorFlow</div>
             <div class="project-desc">
-                A deep learning model trained to colorize grayscale images using the Inception-ResNetV2 architecture.
+                Deep learning model trained to colorize grayscale images using Inception-ResNetV2 architecture.
             </div>
         </div>
 
         <div class="project-card">
             <div class="project-title">Speaker Recognition System</div>
-            <div class="project-lang">Languages Used: Python, Librosa</div>
+            <div class="project-lang">Python, Librosa</div>
             <div class="project-desc">
-                Built a CNN-based speaker recognition system using MFCC features and custom preprocessing.
+                CNN-based speaker recognition system using MFCC features and custom audio preprocessing.
             </div>
         </div>
 
-        <!--<div class="project-card">
-            <div class="project-title">NVR & Proxmox Setup</div>
-            <div class="project-lang">Tools Used: Proxmox, Frigate NVR</div>
+    </div>
+
+    <!-- ================= DATA ANALYSIS PROJECTS ================= -->
+    <div class="section-title">Data Analysis</div>
+    <div class="project-section">
+
+        <div class="project-card">
+            <div class="project-title">Pre-paid Energy Meter Analysis</div>
+            <div class="project-lang">Python, SQL, IoT Data</div>
             <div class="project-desc">
-                Designed a multi-tenant surveillance system with VM-based NVR instances and centralized monitoring.
+                Analysis of real-time energy consumption data with customer database and usage trends.
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ================= WEBSITE DEVELOPMENT PROJECTS ================= -->
+    <div class="section-title">Website Development</div>
+    <div class="project-section">
+
+        <div class="project-card">
+            <div class="project-title">Pre-paid Energy Meter Dashboard</div>
+            <div class="project-lang">HTML, CSS, JavaScript, ESP32</div>
+            <div class="project-desc">
+                Web-based dashboard displaying real-time energy usage and customer details for prepaid users.
             </div>
         </div>
 
         <div class="project-card">
             <div class="project-title">Portfolio Website</div>
-            <div class="project-lang">Languages Used: HTML, CSS</div>
+            <div class="project-lang">HTML, CSS</div>
             <div class="project-desc">
-                A personal portfolio website showcasing academic work, interests, and projects.
+                Personal portfolio website showcasing academic background, projects, and interests.
             </div>
-        </div>-->
-
-        <div class =" project-card">
-            <div class="project-title"> Development of Pre-paid Energy Meter</div>
-            <div class="project-lang"> Tools used: Arduino IDE, ESP32, HTML/CSS, JavaScript</div>
-            <div class="project-desc">University Grant Commission supported prototype of energy meter to measure the usage of the energy according to the amount paid prior by the user. Database consisting of personal details of customers along with real-time display of the usage.</div>
         </div>
 
     </div>
 
 </body>
 </html>
-
