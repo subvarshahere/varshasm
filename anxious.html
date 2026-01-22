@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Books I've Read</title>
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background: #F5E6F5;
+            color: #333;
+        }
+
+        .header {
+            background: #52214C;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .nav{
+            background: #8C6986;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .sections{
+            background-color:#331833;
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+
+        .books-grid img {
+            width: 150px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+
+        .books-grid img:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+        }
+
+        h2 {
+            color: white;
+            text-align: center;
+        }
+        .title {
+            text-align: center;
+        }
+
+        .description {
+            text-align: justify;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Books I've Read</h1>
+    </div>
+
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="projects.html">Projects</a>
+        <a href="interests.html">Interests</a>
+        <a href="contacts.html">Contacts</a>        
+    </div>
+
+<div class="sections">
+    <div class="books-grid">
+        <h2 class="title">Anxious People</h2>
+
+        <img src="9781405930253-1.jpg" width="30" height="40" alt="Anxious People Book Cover">
+
+        <p class="description">
+            The most ironic thing about this book is that it got me into and out of the reading slump.
+            I think my brain has rewired to not be patient enough for this. It’s such a good comfort read.
+            It’s dramatic, emotional, thriller and hands down to the writer for such perfect comedic timing.
+            It’s like the writer is reading your mind...
+        </p>
+    </div>
+</div>
+
+
+</body>
+</html>
+
+
